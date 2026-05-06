@@ -2,64 +2,21 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Мой крутой сайт</title>
+    <title>Аброр</title>
     <style>
-        /* ====== ВСЯ МАГИЯ ПРОИСХОДИТ ЗДЕСЬ ====== */
-        
+        /* Говорим: для всего тела сайта */
         body {
-            background-color: black;  /* чёрный фон */
-            color: white;            /* белый текст */
-            text-align: center;      /* всё по центру */
-            font-family: Arial;      /* шрифт */
+            background-color: red;
+            text-align: center;
         }
         
+        /* Говорим: для заголовка h1 */
         h1 {
-            animation: появление 2s;  /* анимация появления */
+            color: red;
         }
-        
-        @keyframes появление {
-            0% { 
-                opacity: 0;  /* невидимый */
-                transform: translateY(-50px);  /* выше на 50 пикселей */
-            }
-            100% { 
-                opacity: 1;  /* видимый */
-                transform: translateY(0);  /* на месте */
-            }
-        }
-        
-        p {
-            animation: мигание 1s infinite;  /* бесконечное мигание */
-        }
-        
-        @keyframes мигание {
-            0% { opacity: 1; }   /* видимый */
-            50% { opacity: 0; }  /* невидимый */
-            100% { opacity: 1; } /* опять видимый */
-        }
-        
-        .кнопка {
-            background-color: gold;
-            color: black;
-            padding: 15px 30px;
-            font-size: 20px;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-            animation: прыжок 0.5s infinite;
-        }
-        
-        @keyframes прыжок {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0); }
-        }
-        
     </style>
-</head>
+</head>  <!-- Закрываем head -->
 <body>
-    <h1>меня завут аброр</h1>
-    <p>мне 15 лет</p>
-    <button class="кнопка">🔥 НАЖМИ МЕНЯ 🔥</button>
+    <h1>Меня завут аброр</h1>  <!-- Убрал скобки и кавычки -->
 </body>
 </html>
